@@ -1,0 +1,226 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+nav{
+    margin: 0% 0% 1% 0%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+
+
+background-color: rgb(84, 151, 214);
+
+h1{
+
+    font-size: 200%;
+    color: rgb(30, 26, 54);
+
+
+}
+
+.button{
+
+    display: flex;
+    justify-content: end;
+    
+    }
+button{
+
+    background-color:rgb(30, 26, 54) ;
+    color: aliceblue;
+    font-size: 100%;
+    margin: 10%;
+    padding: 10%;
+}
+
+
+}
+
+
+
+
+main{
+
+    
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+    .lista{
+
+        display: flex;
+        flex-direction: column;
+        
+    
+    background-color: rgb(42, 46, 63);
+        width: 100%;
+        height: 100%;
+        
+    
+        
+    }
+    
+    h2{
+    
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+      
+    
+        font-size: 200%;
+        color: white;
+    
+    
+    }
+    
+    ul{
+    
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+      
+    padding: 5%;
+    margin: 5%;
+    
+    }
+    
+    li{
+        border:solid;
+        border-width: 2%;
+        border-color: black;
+        background-color: rgb(66, 66, 66);
+    color: aliceblue;
+        font-size: 120%;
+    padding: 2%;
+    margin: 2%;
+    
+    
+    }
+    
+    .tarjetas{
+        
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15% 15% 15%;
+        height: 50%;
+
+       
+    }
+    
+    .card-text-start{
+       
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1%;
+        border: solid ;
+    border-width: 1%;
+    border-color: rgb(161, 161, 161);
+
+    .card-img-top{
+        width: 80%;
+        height: 70%;
+    
+    }
+    
+    .card-body{
+
+display: flex;
+justify-content: end;
+align-items: flex-start;
+flex-direction: column;
+
+margin: 1%;
+    padding: 1%;
+    }
+    
+.card-title{
+   
+    margin: 1%;
+    padding: 1%;
+
+    
+}
+
+.card-text{
+
+    margin: 1%;
+    padding: 1%;
+
+}
+
+button{
+    width: 100%;
+    background-color: rgb(51, 116, 177) ;
+font-size: 100%;
+
+}
+
+
+    }
+    
+  
+    
+
+}
+
+
+
+footer{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+    width: vw;
+    height: 50%;
+    
+    background-color: rgb(51, 116, 177);
+    margin: 1% 0% 0% 0%;
+    padding: 1.5%;
+    color: black;
+
+    h4{
+
+        font-size: 150%;
+
+    }
+
+    .redes{
+        display: flex;
+        justify-content:space-between;
+    color: black;
+    font-size: 150%;
+    padding: 0,5%;
+    margin: 0,5%;
+p{
+    margin: 5%;
+}
+
+button{
+    
+padding:1% ;
+    background-color:rgb(137, 193, 207) ;
+    font-size: 100%;
+    color: aliceblue;
+}
+    
+        }
+}
+
+
+.grid-container{
+    width: vw;
+    height:vh;
+
+display:grid;
+grid-template-areas: 
+"nav"
+"main"
+"footer"
+"tarjetas"
+
+
+
+    }
